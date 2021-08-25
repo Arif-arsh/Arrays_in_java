@@ -12,6 +12,7 @@ public class PassingInJava {
         System.out.println(Arrays.toString(nums));
     }
     static void change(int[] arr) {
+
         arr[0] = 99;
     }
 }
